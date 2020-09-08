@@ -31,5 +31,5 @@ def browser(request):
     user_language=request.config.getoption("language")
     yield browser
     print("\nquit browser..")
-    time.sleep(5)
+    time.sleep(1)
     browser.quit()
